@@ -20,4 +20,4 @@ function getAverage(arr){
     return Math.floor(sum/arr.length)        
 }
 
-console.log(getAverage([1,2,3,4,5,]))
+console.log(getAverage([1,1,1,1,1,1,1,2]))

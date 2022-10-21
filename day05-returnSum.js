@@ -23,3 +23,13 @@ function repeats(arr){
     }
     return newArr[0] + newArr[1]
     };
+
+
+
+    function repeats(arr){
+       const nums = arr.filter(num => arr.indexOf(num)===arr.lastIndexOf(num))
+
+        return nums.reduce(
+            (previousValue, currentValue) => previousValue + currentValue, 0)
+
+    }

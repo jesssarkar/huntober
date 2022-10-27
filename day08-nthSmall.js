@@ -20,3 +20,7 @@
 
 //sort the elements and then use bracket notataion -1 to call it
 
+function nthSmallest(arr, pos){
+    const sortArr = arr.sort((a,b) => a-b)
+    return sortArr[pos-1]
+  }
